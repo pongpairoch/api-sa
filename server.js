@@ -207,7 +207,25 @@ const slot = {
 
 
 
+app2.get('/api/sa', (req,res) =>{
+	fetch('https://casinohacker.vip/salhacker/database/getresult.php', {
+  headers: {
+    Cookie: 'PHPSESSID=pmsn7dgrntcb6qc0b2jm9njrge'
+  }
+}).then(response =>  response.json())
+.then(data =>  res.json({"status":"200","data":[{"room_id":"1","room_name":"E01","records":data[0].records},
+{"room_id":"2","room_name":"E02","records":data[1].records},
+{"room_id":"3","room_name":"E03","records":data[2].records},
+{"room_id":"4","room_name":"E04","records":data[3].records},
+{"room_id":"5","room_name":"E05","records":data[4].records},
+{"room_id":"6","room_name":"E06","records":data[5].records},
+{"room_id":"7","room_name":"E07","records":data[6].records},
+{"room_id":"8","room_name":"E08","records":data[7].records},
+{"room_id":"9","room_name":"E09","records":data[8].records},
+{"room_id":"10","room_name":"E10","records":data[9].records}
 
+]}));
+})
 
 
 
