@@ -209,7 +209,7 @@ const slot = {
 
 
 
-app2.get('/api/se', (req,res) =>{
+app2.post('/api/se', (req,res) =>{
 	fetch('https://pdmoney.net/api-bac/database/getlog_se.php', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
 }).then(response =>  response.json())
