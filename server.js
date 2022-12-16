@@ -253,7 +253,7 @@ app2.get('/api/get', (req, res) => {
 var sa1,sa2,sa3,sa4,sa5,sa6,sa7,sa8,sa9;
 
 // Call the API
-fetch('https://cottoapi.com/api.php?game=sagame&tablename=E01').then(function (response) {
+fetch('https://cottoapi.com/api.php?game=sexy&tablename=Table1').then(function (response) {
 
 		return response.text();
 
@@ -263,7 +263,7 @@ fetch('https://cottoapi.com/api.php?game=sagame&tablename=E01').then(function (r
 	sa1 = data1;
 
 	// Fetch another API
-	return fetch('https://cottoapi.com/api.php?game=sagame&tablename=E02' );
+	return fetch('https://cottoapi.com/api.php?game=sexy&tablename=Table2' );
 
 }).then(function (response) {
 
@@ -271,7 +271,7 @@ fetch('https://cottoapi.com/api.php?game=sagame&tablename=E01').then(function (r
 
 }).then(function (data2) {
 	sa2 = data2;
-    return  fetch('https://cottoapi.com/api.php?game=sagame&tablename=E03' );
+    return  fetch('https://cottoapi.com/api.php?game=sexy&tablename=Table3' );
 }).then(function (response) {
 	
 		return response.text();
@@ -282,7 +282,7 @@ fetch('https://cottoapi.com/api.php?game=sagame&tablename=E01').then(function (r
 	sa3 = data3;
 
 	// Fetch another API
-	return fetch('https://cottoapi.com/api.php?game=sagame&tablename=E04' );
+	return fetch('https://cottoapi.com/api.php?game=sexy&tablename=Table4' );
 
 }).then(function (response) {
 	
@@ -290,7 +290,7 @@ fetch('https://cottoapi.com/api.php?game=sagame&tablename=E01').then(function (r
 
 }).then(function (data4) {
 	sa4 = data4;
-    return  fetch('https://cottoapi.com/api.php?game=sagame&tablename=E05' );
+    return  fetch('https://cottoapi.com/api.php?game=sexy&tablename=Table5' );
 }).then(function (response) {
 	
 		return response.text();
@@ -300,13 +300,13 @@ fetch('https://cottoapi.com/api.php?game=sagame&tablename=E01').then(function (r
 	// Store the post data to a variable
 	sa5 = data5;
 
-	return fetch('https://cottoapi.com/api.php?game=sagame&tablename=E06' );
+	return fetch('https://cottoapi.com/api.php?game=sexy&tablename=Table6' );
 
 }).then(function (response) {
 		return response.text();
 }).then(function (data6) {
 	sa6 = data6;
-    return  fetch('https://cottoapi.com/api.php?game=sagame&tablename=E07' );
+    return  fetch('https://cottoapi.com/api.php?game=sexy&tablename=Table7' );
 }).then(function (response) {
 
 		return response.text();
@@ -315,7 +315,7 @@ fetch('https://cottoapi.com/api.php?game=sagame&tablename=E01').then(function (r
 
 	sa7 = data7;
 
-	return fetch('https://cottoapi.com/api.php?game=sagame&tablename=E08' );
+	return fetch('https://cottoapi.com/api.php?game=sexy&tablename=Table8' );
 
 }).then(function (response) {
 
@@ -323,14 +323,14 @@ fetch('https://cottoapi.com/api.php?game=sagame&tablename=E01').then(function (r
 	
 }).then(function (data8) {
 	sa8 = data8;
-    return  fetch('https://cottoapi.com/api.php?game=sagame&tablename=E09' );
+    return  fetch('https://cottoapi.com/api.php?game=sexy&tablename=Table9' );
 }).then(function (response) {
 	
 		return response.text();
 
 }).then(function (data9) {
 	sa9 = data9;
-    return  fetch('https://cottoapi.com/api.php?game=sagame&tablename=E010' );
+    return  fetch('https://cottoapi.com/api.php?game=sexy&tablename=Table10' );
 }).then(function (response) {
 	return response.text();
 }).then(function (sa10) {
